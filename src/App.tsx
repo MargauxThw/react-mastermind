@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './styles/style.css'
 
 function App() {
+  var numPegs : number = 6
+  var pegWidth : number = window.innerWidth > 500 ? 150 : window.innerWidth / (numPegs + 2)
+  const pegStyle: React.CSSProperties = {padding: pegWidth/2}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+      <button className="pegLi" style={pegStyle}></button>
+      </body>
     </div>
   );
 }

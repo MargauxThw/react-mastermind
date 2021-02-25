@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,eAAe;AAAf,eAAe;ACOf,AAAA,MAAM,AAAA,MAAM,CAAC;EAJT,gBAAgB,EDMZ,OAAO;ECLX,aAAa,EAAE,GAAG;CAKrB",
     "sources": [
         "style.scss",
+        "_variables.scss",
+        "_pegs.scss",
         "_variables.scss"
     ],
     "names": [],
