@@ -1,0 +1,13 @@
+@import './variables';
+
+
+
+@mixin peg($colour) {
+    background-color: $colour;
+    border-radius: 50%;
+}
+
+button.pegLi {
+    @include peg($pegLi);
+}
+
